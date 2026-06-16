@@ -8,7 +8,7 @@ import { createClient } from 'https://esm.sh/@supabase/supabase-js@2'
 const RESEND_API_KEY = Deno.env.get('re_RaztaU6U_N2oXbuaP3mFQCer1BVGwnwgg')
 const FROM_EMAIL = Deno.env.get('SLIPSCAN_FROM_EMAIL') || 'SlipScan <onboarding@resend.dev>'
 const SUPABASE_URL = Deno.env.get('https://tjevwfmwscscyesbuqhy.supabase.co')
-const SUPABASE_SERVICE_ROLE_KEY = Deno.env.get('SUPABASE_SERVICE_ROLE_KEY')
+const SUPABASE_SERVICE_ROLE_KEY = Deno.env.get('eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRqZXZ3Zm13c2NzY3llc2J1cWh5Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4MTU0MzkyNCwiZXhwIjoyMDk3MTE5OTI0fQ.NynnuycDbvTIzwdB5cG7Tt3fVyEFeLqbgJmUCQyFXcM')
 
 const corsHeaders = {
   'Access-Control-Allow-Origin': '*',
